@@ -35,7 +35,7 @@ class Teacher(AbstractBaseUser, PermissionsMixin):
 
     objects = TeacherManager()
 
-    USERNAME_FIELD: str = 'phone_number'
+    USERNAME_FIELD: str = 'email'
     REQUIRED_FIELDS = []
 
     class Meta:
