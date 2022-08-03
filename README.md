@@ -139,12 +139,12 @@ curl --location --request POST 'http://0.0.0.0:8000/teacher/login/' \
 * Request method: GET
 * URL: http://0.0.0.0:8000/api/students/
 
-## Для получения изменения ученика http://0.0.0.0:8000/api/students/
+## Для  изменения ученика http://0.0.0.0:8000/api/students/
 * Request method: PUT
 * URL: http://0.0.0.0:8000/api/students/
 * ID: id ученика
 
-## Для получения удаления ученика http://0.0.0.0:8000/api/students/
+## Для  удаления ученика http://0.0.0.0:8000/api/students/
 * Request method: DELETE
 * URL: http://0.0.0.0:8000/api/students/
 * ID: id ученика
