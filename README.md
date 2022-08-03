@@ -149,4 +149,16 @@ curl --location --request POST 'http://0.0.0.0:8000/teacher/login/' \
 * URL: http://0.0.0.0:8000/api/students/
 * ID: id ученика
 
+## Для поиска учеников http://0.0.0.0:8000/api/students/?search=['full_name', 'mail', 'address', 'gender']
+* Request method: GET
+* URL: http://0.0.0.0:8000/api/students/
+
+## Для отправки рассылки  http://0.0.0.0:8000/multiple-mail/
+* Request method: POST
+* URL: http://0.0.0.0:8000/multiple-mail/
+* Body: 
+    * title: 
+    * text:
+
+
 # Детальнее можно ознакомиться в ```swagger``` документации http://0.0.0.0:8000/docs/ 
