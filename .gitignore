@@ -2,3 +2,4 @@ postgres
 venv
 .env
 migrations
+media
